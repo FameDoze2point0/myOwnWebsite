@@ -16,8 +16,10 @@ code couleur :
 ```
 indigo Dye      : #124E78  
 Bittersweet     : #FF6666  
+Mustard         : #FFDD4A
 Smoky Black     : #0F0507  
 Honeydew        : #DFF3E4  
+313131
 ```
 font :
 ```
