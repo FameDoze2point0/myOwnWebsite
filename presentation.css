@@ -29,6 +29,9 @@ body section#presentation div.content{
 body section#presentation div.content p{
     color: white;
     font-weight: bold;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 body section#presentation div.content p.hi{
     color: #6dc973;
