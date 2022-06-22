@@ -1,0 +1,79 @@
+header{
+    z-index: 6;
+    width: 100vw;
+    height: 13vh;
+    position: fixed; 
+}
+
+nav{
+    z-index: inherit;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav img{
+    max-height: 95%;
+    width: auto;
+    margin: auto 0;
+}
+nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #ffc857;
+}
+nav ul li a.contact{
+    position: relative;
+    padding: 10px 30px;
+    transition: 0.5s
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+nav ul li a:active{
+    color: #e9724c;
+}
+nav ul li .contact::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #ffc857;
+    border-left: 2px solid #ffc857;
+    transition: 0.5s;
+}
+nav ul li .contact::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #ffc857;
+    border-right: 2px solid #ffc857;
+    transition: 0.5s;
+}
+nav ul li .contact:hover::before,nav ul li .contact:hover::after{
+    width: 103%;
+    height: 110%;
+}
+nav ul li .contact:hover{
+    background-color: #ffc857;
+    color: #1b1714;
+    box-shadow: 0 0 25px #ffc857;
+    transition: 0.25s;
+    transition-delay: 0.5s;
+}

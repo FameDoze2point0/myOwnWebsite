@@ -8,6 +8,8 @@
         <link rel="icon" href="image/logo/favicon.png">
         <!--css-->
         <link rel="stylesheet" href="css_index.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="presentation.css">
 
         <!--font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,19 +19,30 @@
         
     </head>
     <body>
-        <nav>
-            <img src="image/logo/logo2.png" alt="logo">
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">Qui suis-je ?</a></li>
-                <li><a href="#">Mon parcours</a></li>
-                <li><a href="#">Mes projets</a></li>
-                <li><a class="contact" href="#">Contactez moi</a></li>
-            </ul>
-        </nav>
-
-        <div id="particles-js"></div>
+        <header>
+            <nav>
+                <img src="image/logo/logo2.png" alt="logo">
+                <ul>
+                    <li><a href="#">accueil</a></li>
+                    <li><a href="#">Qui suis-je ?</a></li>
+                    <li><a href="#">Mon parcours</a></li>
+                    <li><a href="#">Mes projets</a></li>
+                    <li><a class="contact" href="#">Contactez moi</a></li>
+                </ul>
+            </nav>
+        </header>
         
+        <section id="presentation">
+            <div id="particles-js"></div>
+            <div class="content">
+                <p class="hi">Bonjour, mon prénom est</p>
+                <p class="name">Antonin CARPENTIER</p>
+                <p class="titre">Étudiant en informatique</p>
+                <p class="desc">Âgé de 21 ans, je suis actuellement en 2ème année de Licence à l'<span> Université de Picardie Jules Verne.</span> en France</p>
+            </div>
+        </section>
+        
+
         
 
         <script type="text/javascript" src="particules/particles.js"></script>
