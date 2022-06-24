@@ -1,5 +1,5 @@
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     margin: 0pt;
     padding: 0pt;
@@ -10,7 +10,7 @@
 body{
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    height: 250vh;
     width: 100%;
 }
 

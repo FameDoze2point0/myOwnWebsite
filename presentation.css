@@ -1,5 +1,6 @@
 body section#presentation{
     z-index: 2;
+    height: 100vh;
 }
 body section#presentation div#particles-js{
     margin: 0;
@@ -18,7 +19,7 @@ body section#presentation div#particles-js{
 }
 body section#presentation div.content{
     position: relative;
-    top: 50%;
+    top: 30%;
     left: 15%;
     width: 50%;
     height: 50vh;
