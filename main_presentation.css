@@ -4,15 +4,16 @@ body section#presentation2{
     background-color: #f5f5f5;  
     display: flex;
     flex-direction: column; 
+    align-items: center;
 }
-body section#presentation2 div.titre{
+body div.titre{
     height: 10%;
-    margin-top: 2.5%;
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-body section#presentation2 div.titre p{
+body div.titre p{
     font-size: 4.5em;
     font-weight: bold;
     color: #4e6151;
@@ -20,8 +21,7 @@ body section#presentation2 div.titre p{
 body section#presentation2 div.content{
     height: 40%;
     width: 70%;
-    margin: 0 auto;
-    margin-top: 1%;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,6 +37,13 @@ body section#presentation2 div.content p{
     width: 65%;
     -webkit-box-shadow: 0px 0px 15px 0px #000000; 
     box-shadow: 0px 0px 15px 0px #000000;
+    text-align: justify;
+}
+body section#presentation2 div.content p span,body section#presentation2 div.content p span a{
+    color: #e9724c;
+}
+body section#presentation2 div.content p span a:hover{
+    text-decoration: underline;
 }
 body section#presentation2 div.content img{
     width: 20%;
