@@ -1,6 +1,8 @@
 body section#presentation{
     z-index: 2;
     height: 100vh;
+    -webkit-box-shadow: 5px 5px 15px 0px #000000; 
+    box-shadow: 5px 5px 15px 0px #000000;
 }
 body section#presentation div#particles-js{
     margin: 0;
