@@ -14,20 +14,20 @@ _____________
 
 code couleur :  
 ```
-indigo Dye      : #124E78  
-Bittersweet     : #FF6666  
-Mustard         : #FFDD4A
-Smoky Black     : #0F0507  
-Honeydew        : #DFF3E4  
-313131
+Russian green       : #5E8C61
+Feldgrau            : #4E6151
+Dark Lava           : #3B322C
+Black Chocolate     : #1B1714
+Maximum Yellow red  : #FFC857
+Burnt sienna        : #E9724C
 ```
 font :
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 ```
 - utiliser json pour les différentes langues (en/fr)
 - site responsive à faire @media...
