@@ -36,9 +36,6 @@ body section#presentation div.content p{
     -ms-user-select: none;
     user-select: none; 
 }
-body section#presentation div.content p.hi{
-    color: #5e8c61;
-}
 body section#presentation div.content p.name{
     color: #ffc857;
     font-size: 5.5em;
