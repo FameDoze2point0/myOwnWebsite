@@ -1,12 +1,12 @@
 body section#projet{
     z-index: 1;
     background-color: #1B1714;
-    height: 200vh;
+    height: 300vh;
     
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     position: relative;
-    top: -25vh;
+    top: -30vh;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none; 
@@ -64,7 +64,7 @@ body section#projet div.content div.divProjet div.text p.desc{
     color: #e6e6e6;
 }
 body section#projet div.content div.divProjet div.text div.bottom{
-    font-size: 1.5em;
+    font-size: 1.3em;
     height: 10%;
     display: flex;
     flex-direction: row;
