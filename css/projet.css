@@ -1,10 +1,10 @@
 body section#projet{
     z-index: 1;
     background-color: #1B1714;
-    height: 300vh;
+    height: 275vh;
     
-    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 200px, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 200px, 100% 100%, 0 100%);
     position: relative;
     top: -30vh;
     -webkit-user-select: none;

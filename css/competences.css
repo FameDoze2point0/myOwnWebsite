@@ -1,0 +1,16 @@
+body section#competence{
+    z-index: 1;
+    background-color: #4E6151;
+    height: 100vh;
+    
+    -webkit-clip-path: polygon(0 0, 100% 200px, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 200px, 100% 100%, 0 100%);
+    position: relative;
+    top: -62vh;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+body section#competence div.titre{
+    margin-top: 200px;
+}
