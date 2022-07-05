@@ -1,0 +1,9 @@
+main section#particles-js{
+    height: 100vh;
+    background: rgb(49,60,51);
+    background: -moz-radial-gradient(circle, rgba(49,60,51,1) 0%, rgba(27,23,20,1) 65%);
+    background: -webkit-radial-gradient(circle, rgba(49,60,51,1) 0%, rgba(27,23,20,1) 65%);
+    background: radial-gradient(circle, rgba(49,60,51,1) 0%, rgba(27,23,20,1) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#313c33",endColorstr="#1b1714",GradientType=1);
+
+}

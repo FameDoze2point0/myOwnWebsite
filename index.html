@@ -1,127 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- <base href="https://www.CarpentierAntonin.com/"> -->
-        <meta charset="utf-8">
-        <title>Antonin Carpentier</title>
-        
-        <link rel="icon" href="image/logo/favicon.png">
-        <!--css-->
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/presentation.css">
-        <link rel="stylesheet" href="css/main_presentation.css">
-        <link rel="stylesheet" href="css/main_presentation.css">
-        <link rel="stylesheet" href="css/projet.css">
-        <link rel="stylesheet" href="css/competences.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonin Carpentier</title>
 
-        <!--font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="image/logo/favicon.png">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!--page css-->
+    <link rel="stylesheet" href="css2/general.css">
+    <link rel="stylesheet" href="css2/nav.css">
+    <link rel="stylesheet" href="css2/home.css">
+    
+</head>
+<body>
+    <nav>
+        <img src="image/logo/logo.png" alt="logo">
+        <ul>
+            <li><a href="#">accueil</a></li>
+            <li><a href="#">Qui suis-je ?</a></li>
+            <li><a href="#">Mes projets</a></li>
+            <li><a href="#">Mes compétences</a></li>
+            <li><a href="#">Mon parcours</a></li>
+            <li><a href="#">Contactez moi</a></li>
+            <li><i class="fa-solid fa-bars fa-2x"></i></li>
+        </ul>
+    </nav>
 
-        
-    </head>
-    <body>
-        <header>
-            <nav>
-                <img src="image/logo/logo.png" alt="logo">
-                <ul>
-                    <li><a href="#">accueil</a></li>
-                    <li><a href="#">Qui suis-je ?</a></li>
-                    <li><a href="#">Mes projets</a></li>
-                    <li><a href="#">Mes compétences</a></li>
-                    <li><a href="#">Mon parcours</a></li>
-                    <li><a class="contact" href="#">Contactez moi</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <section id="presentation">
-            <div id="particles-js"></div>
-            <div class="content">
-                <p class="name">Antonin CARPENTIER</p>
-                <p class="titre">Étudiant en informatique</p>
-                <p class="desc">Âgé de 21 ans, je suis actuellement en 2ème année de Licence à l'<span> Université de Picardie Jules Verne</span> en France.</p>
-            </div>
-        </section>
-        <section id="presentation2">
-            <div class="titre"><p>Qui suis-je ?</p></div>
-            <div class="content">
-                <p>Bonjour, je m'appelle Antonin Carpentier et j'ai 21 ans. Je suis particulièrement intéressé par l'<span>informatique, les maths et la physique</span>, que j'essaie de lier dans mes projets (que vous pouvez voir dans la rubrique <span><a href="#">Mes projets</a></span>). Curieux et passionné, j'aime apprendre de nouvelles choses. Les sujets que j'aimerais approfondir dans le futur sont : <span>La théorie des graphes et les intelligences artificielles</span> (notamment les réseaux de neuronnes).
-                <br><br>
-                J'ai intégré en 2019 l'<span><a href="#">Université de Technologie de Compiègne</a></span> (en France), cependant après une année infructueuse, j'ai préféré me diriger vers une Licence d'informatique à L'<span><a href="#">Université de Picardie Jules Verne</a></span> à Amiens. Cette licence m'a permi de créer un bagage en informatique (vous trouverez plus de détails dans <span><a href="#">Mes compétences</a></span> ).
-                <br><br>
-                Par la suite, j'aimerais continuer vers un master ou magistère, afin de consolider les bases acquises et me spécialiser dans un domaine que j'affectionne. Suite à ça, j'ai comme projet de continuer sur une thèse, puis de tenter les concours pour être enseignant-chercheur.
-                </p>
-                <img src="image/profil/photo.png">
-            </div>
-        </section>
-
-        <section id="projet">
-            <div class="titre"><p>Mes projets</p></div>
-            <div class="content">
-
-                <div class="divProjet">
-                    <img src="image/projet/sokoscape.png">
-                    <div class="text">
-                        <p class="titreProjet">SokoScape</p>
-                        <p class="desc">Petit jeu 2D de labyrinthe. Comprend plusieurs vies, un système de rang en local (en fonction du temps), des animations de glissades et d'attaque, des interactions avec le personnage, un chronomètre et des effets sonores.</p>
-                        <div class="bottom">
-                            <p class="key">C - SDL2 - projet scolaire</p>
-                            <p class="date">2021</p>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="divProjet">
-                    <div class="text">
-                        <p class="titreProjet">Création de grands entiers</p>
-                        <p class="desc">Projet en binôme dont le but est d'afficher des entiers non affichable normalement à l'aide des listes. Nous devions être capable de pouvoir comparer des entiers, créer un AVL et une table de hachage avec ces entiers et comparer les temps de recherche entre les 2 structures.</p>
-                        <div class="bottom">
-                            <p class="key">C - projet scolaire</p>
-                            <p class="date">2021</p>
-                        </div>
-                        
-                    </div>
-                    <img src="image/projet/bigInt.png">
-                </div>
-
-                <div class="divProjet">
-                    <div class="text">
-                        <p class="titreProjet">Site internet Antonin Carpentier</p>
-                        <p class="desc">Site fait seul, dans le but d'approfondir les connaissances. Dans ce projet, j'ai mis l'accent sur la responsivité qui était une première pour moi mais aussi le design (User Interface). Ce site permet de rassembler les différents projets que je voulais présenter.</p>
-                        <div class="bottom">
-                            <p class="key">HTML - CSS - JS - projet personnel</p>
-                            <p class="date">2022</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="divProjet">
-                    <div class="text">
-                        <p class="titreProjet">RitoTracker</p>
-                        <p class="desc">Site internet de statistiques sur différents jeux (League of Legends, Valorant, Teamfight Tactics). Sur ce site nous pouvons avoir accès à plus d'informations que nous n'aurions pas de base sur les plateformes des jeux (diverses données des parties), que nous interprétons afin de donner des conseils aux joueurs.</p>
-                        <div class="bottom">
-                            <p class="key">PHP - HTML - CSS - projet personnel</p>
-                            <p class="date">2022</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="competence">
-            <div class="titre"><p>Mes compétences</p></div>
-            <div class="content">
-                
-            </div>
-        </section>
-        
-
-        <script type="text/javascript" src="particules/particles.js"></script>
-        <script type="text/javascript" src="particules/app.js"></script>
-        <script type="text/javascript" src="particules/particles.min.js"></script>
-    </body>
+    <main>
+        <section id="particles-js"></section>   
+    </main>
+    <script type="text/javascript" src="particules/particles.js"></script>
+    <script type="text/javascript" src="particules/app.js"></script>
+    <script type="text/javascript" src="particules/particles.min.js"></script>
+    <!--icones fontawesome-->
+    <script src="https://kit.fontawesome.com/02e7f3f55c.js" crossorigin="anonymous"></script>
+</body>
 </html>
