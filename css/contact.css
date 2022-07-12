@@ -179,4 +179,7 @@ body section#contact div.content form div.bottomForm div.buttons input[type="res
     body section#contact div.content form div.topForm div input{
         width: 90%;
     }
+    body section#contact div.content form div.bottomForm div.buttons input{
+        width: 40%;
+    }
 }
