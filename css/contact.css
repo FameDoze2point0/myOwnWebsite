@@ -181,5 +181,6 @@ body section#contact div.content form div.bottomForm div.buttons input[type="res
     }
     body section#contact div.content form div.bottomForm div.buttons input{
         width: 40%;
+        font-size: 1.5rem;
     }
 }
