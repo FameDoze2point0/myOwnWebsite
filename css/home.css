@@ -58,12 +58,12 @@ body section#home div.content p#desc a{
 }
 @media screen and (max-width: 600px) {
     body section#home div.content p#name{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     body section#home div.content p.title{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     body section#home div.content p#desc{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
