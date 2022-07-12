@@ -1,0 +1,122 @@
+body section#skill{
+    width: 100%;
+    background-color: #f6f9fc;
+    font-family: 'Montserrat', sans-serif;
+    color: #3b322c;
+}
+body section#skill div.polygon{
+    width: 100%;
+    height: 300px;
+    background-color: #3b322c;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+body section#skill h1.title{
+    width: 100%;
+    text-align: center;
+    color: #3b322c;
+    font-size: 7rem;
+}
+body section#skill div.content{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+body section#skill div.content div.skillsPanel{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+body section#skill div.content div.skillsPanel div.language{
+    -webkit-box-shadow: 5px 5px 15px 5px #00000072; 
+    box-shadow: 5px 5px 15px 5px #00000072;
+    width: 50%;
+    margin: 20px;
+}
+body section#skill div.content div.skillsPanel div.concept{
+    -webkit-box-shadow: 5px 5px 15px 5px #00000072; 
+    box-shadow: 5px 5px 15px 5px #00000072;
+    width: 50%;
+    margin: 20px;
+}
+body section#skill div.content div.skillsPanel div h2{
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px 0;
+}
+body section#skill div.content div.skillsPanel div.language div.contentLanguage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 0;
+    padding: 20px;
+}
+body section#skill div.content div.skillsPanel div.language div.contentLanguage div.itemLanguage{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+body section#skill div.content div.skillsPanel div.language div.contentLanguage div.itemLanguage img{
+    height: 75px;
+    width: 100%;
+    transition: transform 0.2s ease-out;
+}
+body section#skill div.content div.skillsPanel div.language div.contentLanguage div.itemLanguage img:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-out;
+}
+body section#skill div.content div.skillsPanel div.language div.contentLanguage div.itemLanguage p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+body section#skill div.content div.skillsPanel div.concept ul{
+    font-size: 1.7rem;
+    margin-left: 10%;
+    margin-bottom: 60px;
+    list-style: square;
+}
+body section#skill div.content div.skillsPanel div.concept ul li{
+    margin-top: 10px;
+}
+body section#skill div.content div.skillsPanel div.concept ul ul{
+    font-size: 1.5rem;
+    list-style: inside;
+    margin-bottom: 0px;
+}
+body section#skill div.content div.skillsPanel div.concept ul ul li{
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 1200px) {
+    body section#skill div.content div.skillsPanel div.language div.contentLanguage div.itemLanguage img{
+        height: 50px;
+    }
+    body section#skill div.content div.skillsPanel div.concept ul{
+        font-size: 1.5rem;
+    }
+    body section#skill div.content div.skillsPanel div.concept ul ul{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    body section#skill div.content div.skillsPanel{
+        flex-direction: column;
+        width: 80%;
+    }
+    body section#skill div.content div.skillsPanel div.language{
+        width: 100%;
+    }
+    body section#skill div.content div.skillsPanel div.concept{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 575px) {
+
+    body section#skill h1.title{
+        font-size: 5rem;
+    }
+}

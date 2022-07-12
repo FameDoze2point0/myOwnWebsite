@@ -1,0 +1,69 @@
+body section#home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+body section#home div#particles-js{
+    width: 100%;
+    height: 100%;
+    background: rgb(49,60,51);
+    background: -moz-radial-gradient(circle, rgba(49,60,51,1) 0%, rgba(27,23,20,1) 65%);
+    background: -webkit-radial-gradient(circle, rgba(49,60,51,1) 0%, rgba(27,23,20,1) 65%);
+    background: radial-gradient(circle, rgba(49,60,51,1) 0%, rgba(27,23,20,1) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#313c33",endColorstr="#1b1714",GradientType=1);
+}
+body section#home div.content{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+body section#home div.content p{
+    margin: 5px 0;
+}
+body section#home div.content p#name{
+    font-size: 10rem;
+    color: #ffc857;
+}
+body section#home div.content p.title{
+    font-size: 5rem;
+    color: #5E8C61;
+}
+body section#home div.content p#desc{
+    font-size: 3rem;
+    color: #5E8C61;
+}
+body section#home div.content p#desc a{
+    color: #e9724c;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1050px) {
+    body section#home div.content{
+        width: 80%;
+    }
+    body section#home div.content p#name{
+        font-size: 8rem;
+    }
+    body section#home div.content p.title{
+        font-size: 4rem;
+    }
+    body section#home div.content p#desc{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    body section#home div.content p#name{
+        font-size: 5rem;
+    }
+    body section#home div.content p.title{
+        font-size: 3rem;
+    }
+    body section#home div.content p#desc{
+        font-size: 1.5rem;
+    }
+}

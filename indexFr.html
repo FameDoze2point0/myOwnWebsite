@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Antonin Carpentier</title>
+    <link rel="icon" href="image/logo/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="#home" class="nav-icon" aria-label="visit homepage" aria-current="page"><img src="image/logo/logo.png" alt="logo"></a>
+
+        <div class="main-navlinks">
+            <button class="hamburger" type="button" aria-label="toggle navigation" aria-expanded="false">
+                <!--traits de l'icone du menu-->
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="navlinks-container">
+                <a href="#home" aria-current="page">Accueil</a>
+                <a href="#titleAbout" aria-current="page">Présentation</a>
+                <a href="#titleProject" aria-current="page">Projets</a>
+                <a href="#titleSkill" aria-current="page">Compétences</a>
+                <!--<a href="#" aria-current="page">Experiences</a>-->
+                <a href="#titleContact" aria-current="page">Contact</a>
+                <a href="indexEn.html" aria-current="page"><img src="image/profil/british_flag.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="home">
+            <div id="particles-js"></div>
+            <div class="content">
+               <p id="name">Antonin <br>CARPENTIER</p>
+               <p class="title">Étudiant en informatique</p>
+               <p id="desc">J'ai 21 ans et suis actuellement en 2ème année de licence à l'<a target="_blank" href="https://www.u-picardie.fr/ufr/sciences/">Université de Picardie Jules Verne</a> située en France.</p> 
+            </div>
+        </section>
+        <section id="about">
+            <h1 class="title" id="titleAbout">Qui suis-je ?</h1>
+            <div class="content">
+                <img src="image/profil/photo.png">
+                <div class="text">
+                    Bonjour ! Je m'appelle Antonin Carpentier et j'ai 21 ans. Je suis intéressé par plusieurs domaines comme <span>l'informatique, les mathématiques</span>, mais aussi <span>la physique</span>, que j'essaie de lier dans mes projets (que vous pouvez visualiser ici : <a href="#titleProject">Mes projets</a>). Curieux et motivé, j'aime en apprendre davantage et expérimenter de nouvelles choses. Il y a quelques sujets que j'aimerais approfondir dans le futur comme <span>la théorie des graphes</span> et <span>l'intelligence artificiel</span> (notamment les réseaux de neurones).
+                    <br><br>
+                    J'ai intégré l'<a target="_blank" href="https://www.utc.fr/">Université de Technologie de Compiègne</a> (UTC) en France, en 2019. Cependant, pour des raisons personnelles, j'ai préféré m'orienter vers l'<a target="_blank" href="https://www.u-picardie.fr/ufr/sciences/">Université de Picardie Jules Verne</a> (UPJV) à Amiens. Cette licence m'a conféré un certain bagage en informatique (que vous pouvez voir ici : <a href="#titleSkill">Mes compétences</a>).
+                    <br><br>
+                    Par la suite, j'aimerais continuer vers un Master (ou Magistère), afin de consolider les bases acquises et de me spécialiser dans un domaine que j'affectionne personnellement. En outre, j'aimerais faire une thèse, puis passer les concours pour devenir <span>enseignant-chercheur</span>.
+                </div>
+            </div>
+        </section>
+        <section id="project">
+            <div class="polygon"></div>
+            <h1 class="title" id="titleProject">Mes projets</h1>
+            <div class="content">
+                <div class="projetItem">
+                    <img src="image/projet/sokoscape.png">
+                    <div class="projetText">
+                        <p class="titleProject">SokoScape</p>
+                        <p class="descProject">
+                            Petit jeu de labyrinthe en 2D, dans lequel vous pouvez y retrouver plusieurs fonctionnalités comme : plusieurs vies, un système de classement, des animations de glissade et d'attaque, des interactions avec le personnage, un chronomètre, des effets sonores.</p>
+                        <div class="moreInfoProject">
+                            <p class="language">C - SDL2 - projet universitaire</p>
+                            <p class="year">2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projetItem">
+                    <div class="projetText">
+                        <p class="titleProject">Les grands entiers</p>
+                        <p class="descProject">
+                            Projet réalisé en binôme dont le but est de créer de grands entiers (non-affichables par une machine) à l'aide des listes. Nous devions comparer ces grands entiers, créer un arbre AVL et des tables de hachage (tout deux composés des grands entiers) puis comparer les temps de recherche (entre les deux structures de données).</p>
+                        <div class="moreInfoProject">
+                            <p class="language">C - projet universitaire</p>
+                            <p class="year">2021</p>
+                        </div>
+                    </div>
+                    <img src="image/projet/bigInt.png">
+                </div>
+
+                <div class="projetItem">
+                    <div class="projetText">
+                        <p class="titleProject">Mon portfolio</p>
+                        <p class="descProject">
+                            Création de ce site internet, dans l'optique d'approfondir mes connaissances. Dans ce projet, j'ai essayé de créer un site responsive (qui était une première pour moi) mais aussi de faire attention à l'interface utilisateur. De plus, ce site regroupe mes différents projets et compétences que je voulais afficher.</p>
+                        <div class="moreInfoProject">
+                            <p class="language">HTML - CSS - JS - projet personnel</p>
+                            <p class="year">2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <div class="polygon"></div>
+            <h1 class="title" id="titleSkill">Mes compétences</h1>
+            <div class="content">
+                <div class="skillsPanel">
+                    <div class="language">
+                        <h2>Langages</h2>
+                        <div class="contentLanguage">
+                            <div class="itemLanguage">
+                                <img src="image/competence/html_logo.png">
+                                <p>HTML</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/css_logo.png">
+                                <p>CSS</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/js_logo.png">
+                                <p>JS</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/sql_logo.png">
+                                <p>SQL</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/C_Logo.png">
+                                <p>C</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/java_logo.png">
+                                <p>Java</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/unix_logo.png">
+                                <p>UNIX</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="concept">
+                        <h2>Concepts</h2>
+                        <ul>
+                            <li>Les bases de la programmation</li>
+                            <ul>
+                                <li>Récursivité</li>
+                            </ul>
+                            <li>Logique formelle</li>
+                            <li>Architecture des ordinateurs</li>
+                            <ul>
+                                <li>Opérations sur les binaires</li>
+                                <li>Portes logiques</li>
+                                <li>Tables de vérité</li>
+                                <li>Table de Karnaugh</li>
+                                <li>Code de Gray</li>
+                                <li>Assembleur</li>
+                            </ul>
+                            <li>Structures de données</li>
+                            <ul>
+                                <li>Liste</li>
+                                <li>Pile</li>
+                                <li>File</li>
+                                <li>Arbre</li>
+                                <li>Table de hachage</li>
+                            </ul>
+                            <li>Notion en théorie des graphes</li>
+                            <ul>
+                                <li>Parcours d'un graphe</li>
+                                <li>Arbre couvrant de poids minimal</li>
+                                <li>Problème du plus court chemin</li>
+                                <li>Problème de flot maximal</li>
+                            </ul>
+                            <li>Notion de complexité des algorithmes</li>
+                            <li>Algorithmes de tri et de recherche</li>
+                            <li>Système d'exploitation</li>
+                            <ul>
+                                <li>Les bases d'un système</li>
+                                <li>Script bash</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="polygon"></div>
+            <h1 class="title" id="titleContact">Comment me contacter</h1>
+            <div class="content">
+                <div class="link">
+                    <a target="_blank" href="https://twitter.com/Fame_Doze"><img src="image/link/twitter_logo.png.png"> @Fame_Doze</a>
+                    <a target="_blank" href="https://discord.com/"><img src="image/link/discord_logo.png"> Antonin#7752</a>
+                    <a target="_blank" href="https://github.com/FameDoze2point0"><img src="image/link/git_logo.png" > FameDoze2point0</a>
+                </div>
+
+                <form action="mailto:carpentier.antonin.1@gmail.com" method="post" enctype="text/plain">
+                    <div class="topForm">
+                        <div class="name">
+                            <p>Nom :</p>
+                            <input type="text" name="name" required></div>
+                        <div class="email">
+                            <p>E-mail :</p>
+                            <input type="email" name="mail" required>
+                        </div>
+                    </div>
+                    
+                    <div class="bottomForm">
+                        <div class="subject">
+                            <p>Sujet :</p>
+                            <input type="text" name="subject" required>
+                        </div>
+                        <div class="emailContent">
+                            <textarea name="content" rows="15"></textarea>
+                        </div>
+                        <div class="buttons">
+                            <input type="submit" value="Envoyer">
+                            <input type="reset" value="Nettoyer">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+
+    <script type="text/javascript" src="particules/particles.js"></script>
+    <script type="text/javascript" src="particules/app.js"></script>
+    <script type="text/javascript" src="particules/particles.min.js"></script>
+
+    <script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>

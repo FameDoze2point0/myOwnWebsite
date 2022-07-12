@@ -1,0 +1,113 @@
+body section#project{
+    width: 100%;
+    background-color: #3b322c;
+    font-family: 'Montserrat', sans-serif;
+}
+body section#project div.polygon{
+    width: 100%;
+    height: 300px;
+    background-color: #4e6151;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+body section#project h1.title{
+    width: 100%;
+    text-align: center;
+    color: #f6f9fc;
+    font-size: 7rem;
+}
+body section#project div.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+body section#project div.content div.projetItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+body section#project div.content div.projetItem img{
+    width: 25%;
+    padding: 15px;
+}
+body section#project div.content div.projetItem div.projetText{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    -webkit-box-shadow: 5px 5px 15px 5px #00000072; 
+    box-shadow: 5px 5px 15px 5px #00000072;
+    border-radius: 30px;
+    border: 3px #5E8C61 solid;
+}
+body section#project div.content div.projetItem div.projetText p.titleProject{
+    font-size: 5.5rem;
+    color: #ffc857;
+    font-weight: bold;
+}
+body section#project div.content div.projetItem div.projetText p.descProject{
+    font-size: 2.5rem;
+    padding: 15px;
+    text-align: justify;
+    color: #f6f9fc;
+    height:40%;
+}
+body section#project div.content div.projetItem div.projetText div.moreInfoProject{
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+    height: 10%;
+    font-weight: bold;
+}
+body section#project div.content div.projetItem div.projetText div.moreInfoProject p.language{
+    color: #ffc857;
+}
+body section#project div.content div.projetItem div.projetText div.moreInfoProject p.year{
+    color: #e9724c;
+}
+
+@media screen and (max-width: 1200px) {
+    body section#project div.content div.projetItem img{
+        width: 40%;
+    }
+    body section#project div.content div.projetItem div.projetText p.titleProject{
+        font-size: 4rem;
+    }
+    body section#project div.content div.projetItem div.projetText p.descProject{
+        font-size: 1.5rem;
+    }
+    body section#project div.content div.projetItem div.projetText div.moreInfoProject{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    body section#project div.content div.projetItem img{
+        display: none;
+    }
+    body section#project div.content div.projetItem div.projetText{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 575px) {
+    body section#project div.content div.projetItem div.projetText p.titleProject{
+        font-size: 2rem;
+    }
+    body section#project div.content div.projetItem div.projetText p.descProject{
+        font-size: 1.3rem;
+    }
+    body section#project div.content div.projetItem div.projetText div.moreInfoProject{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    body section#project h1.title{
+        font-size: 5rem;
+    }
+}

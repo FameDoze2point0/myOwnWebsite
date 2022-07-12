@@ -1,0 +1,86 @@
+body section#about{
+    width: 100%;
+    background-color: #4e6151;
+    font-family: 'Montserrat', sans-serif;
+}
+body section#about div.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+body section#about h1.title{
+    width: 100%;
+    text-align: center;
+    color: #f6f9fc;
+    font-size: 7rem;
+    padding: 80px 0;
+}
+body section#about div.content div.text{
+    width: 55%;
+    color: #f6f9fc;
+    font-size: 2rem;
+    margin: 15px;
+    text-align: justify;
+    padding: 0 80px;
+}
+body section#about div.content div.text span{
+    color: #ffc857;
+}
+body section#about div.content div.text a{
+    color: #e9724c;
+    font-weight: 700;
+    text-decoration: underline;
+}
+body section#about div.content img{
+    height: 100%;
+    border-radius: 30px;
+    border: 3px solid #f6f9fc;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    body section#about h1.title{
+        padding: 80px 0;
+    }
+    body section#about div.content div.text{
+        font-size: 1.8rem;
+        padding: 0 40px;
+    }
+}
+@media screen and (max-width: 900px) {
+    body section#about h1.title{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    body section#about div.content{
+        flex-direction: column;
+    }
+    body section#about div.content div.text{
+        width: 80%;
+        font-size: 1.6rem;
+    }
+    body section#about div.content img{
+        width: 30%;
+        margin: 50px 0;
+    }
+}
+@media screen and (max-width: 575px) {
+    body section#about h1.title{
+        padding-top: 60px;
+        padding-bottom: 20px;
+        font-size: 5rem;
+    }
+    body section#about div.content{
+        flex-direction: column;
+    }
+    body section#about div.content div.text{
+        width: 100%;
+        font-size: 1.6rem;
+    }
+    body section#about div.content img{
+        margin: 25px 0;
+    }
+}

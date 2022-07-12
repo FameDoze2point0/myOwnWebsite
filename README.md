@@ -4,7 +4,6 @@ Here you will find a website introducing me and my projects. I'm not professiona
 
 Thanks to this project, I learned:
 - How to make a responsive website
-- How to implement more languages (with Json and Js)
 - Respect some UI/UX rules
 - How to set up an "advanced website"
 

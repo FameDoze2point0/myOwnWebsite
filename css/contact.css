@@ -1,0 +1,182 @@
+body section#contact{
+    width: 100%;
+    background-color: #4e6151;
+    font-family: 'Montserrat', sans-serif;
+}
+body section#contact div.polygon{
+    width: 100%;
+    height: 300px;
+    background-color: #f6f9fc;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+body section#contact h1.title{
+    width: 100%;
+    text-align: center;
+    color: #f6f9fc;
+    font-size: 5rem;
+    padding: 50px 0;
+}
+body section#contact div.content{
+    padding: 25px 0;
+}
+body section#contact div.content div.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body section#contact div.content div.link a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-size: 2rem;
+    color: #f6f9fc;
+    transition: 0.2s ease-out;
+}
+body section#contact div.content div.link a:hover{
+    color: #FFC857;
+}
+body section#contact div.content div.link a img{
+    height: 100px;
+    margin-bottom: 20px;
+}
+body section#contact div.content form{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    margin-left: 50px;
+}
+body section#contact div.content form div.topForm{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+body section#contact div.content form div.topForm div{
+    width: 50%;
+    color: #f6f9fc;
+}
+body section#contact div.content form div.topForm div input{
+    width: 80%;
+    padding: 8px;
+    margin: 8px;
+    font-size: 1.5rem;
+    border: none;
+    -webkit-box-shadow: 5px 5px 15px 5px #00000017; 
+    box-shadow: 5px 5px 15px 5px #00000017;
+    border: 3px solid #ccc;
+    transition: 0.3s ease-out;
+}
+body section#contact div.content form div.topForm div input:focus{
+    border: 3px solid #555;
+}
+body section#contact div.content form div.bottomForm{
+    width: 40%;
+    color: #f6f9fc;
+}
+body section#contact div.content form div.bottomForm div{
+    width: 100%;
+}
+body section#contact div.content form div.bottomForm div.subject input{
+    width: 90%;
+    padding: 8px;
+    margin: 8px;
+    font-size: 1.5rem;
+    border: none;
+    -webkit-box-shadow: 5px 5px 15px 5px #00000017; 
+    box-shadow: 5px 5px 15px 5px #00000017;
+    border: 3px solid #ccc;
+    transition: 0.3s ease-out;
+}
+body section#contact div.content form div.bottomForm div.subject input:focus{
+    border: 3px solid #555;
+}
+
+body section#contact div.content form div.bottomForm div.emailContent textarea{
+    width: 90%;
+    padding: 8px;
+    margin: 8px;
+    font-size: 1.5rem;
+    border: none;
+    -webkit-box-shadow: 5px 5px 15px 5px #00000017; 
+    box-shadow: 5px 5px 15px 5px #00000017;
+    resize: none;
+    border: 3px solid #ccc;
+    transition: 0.3s ease-out;
+}
+body section#contact div.content form div.bottomForm div.emailContent textarea:focus{
+    border: 3px solid #555;
+}
+body section#contact div.content form div.bottomForm div.buttons{
+    width: 90%;
+    margin: 20px 0;
+}
+body section#contact div.content form div.bottomForm div.buttons input{
+    width: 25%;
+    font-size: 2rem;
+    font-family: 'roboto', sans-serif;
+    float: right;
+    margin: 0 10px;
+    padding: 5px;
+    border: none;
+    -webkit-box-shadow: 5px 5px 15px 5px #00000017; 
+    box-shadow: 5px 5px 15px 5px #00000017;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+    background-color: #f6f9fc;
+    color: #4e6151;
+}
+body section#contact div.content form div.bottomForm div.buttons input:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px #00000049; 
+    box-shadow: 5px 5px 15px 5px #00000049;
+    transition: 0.2s ease-out;
+}
+body section#contact div.content form div.bottomForm div.buttons input[type="submit"]:hover{
+    background-color: #FFC857;
+    color: #4e6151;
+}
+body section#contact div.content form div.bottomForm div.buttons input[type="reset"]:hover{
+    background-color: #E9724C;
+    color: #f6f9fc;
+}
+@media screen and (max-width: 1000px) {
+    body section#contact div.content div.link{
+        flex-direction: column;
+    }
+    body section#contact div.content div.link a{
+        margin: 25px;
+    }
+    body section#contact div.content form div.topForm{
+        width: 70%;
+    }
+    body section#contact div.content form div.bottomForm{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 575px) {
+    body section#contact h1.title{
+        font-size: 4rem;
+        padding: 40px 0;
+    }
+    body section#contact div.content div.link a{
+        margin: 25px;
+    }
+    body section#contact div.content form div.topForm{
+        width: 90%;
+        flex-direction: column;
+    }
+    body section#contact div.content form div.bottomForm{
+        width: 90%;
+    }
+    body section#contact div.content form div.topForm div{
+        width: 100%;
+    }
+    body section#contact div.content form div.topForm div input{
+        width: 90%;
+    }
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Antonin Carpentier</title>
+    <link rel="icon" href="image/logo/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="#home" class="nav-icon" aria-label="visit homepage" aria-current="page"><img src="image/logo/logo.png" alt="logo"></a>
+
+        <div class="main-navlinks">
+            <button class="hamburger" type="button" aria-label="toggle navigation" aria-expanded="false">
+                <!--traits de l'icone du menu-->
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="navlinks-container">
+                <a href="#home" aria-current="page">Home</a>
+                <a href="#titleAbout" aria-current="page">About</a>
+                <a href="#titleProject" aria-current="page">Projects</a>
+                <a href="#titleSkill" aria-current="page">Skills</a>
+                <!--<a href="#" aria-current="page">Experiences</a>-->
+                <a href="#titleContact" aria-current="page">Contact</a>
+                <a href="indexFr.html" aria-current="page"><img src="image/profil/french_flag.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="home">
+            <div id="particles-js"></div>
+            <div class="content">
+               <p id="name">Antonin <br>CARPENTIER</p>
+               <p class="title">Student in Computer Science</p>
+               <p id="desc">I am 21 years old and currently in my 2nd year of Bachelor's Degree at the <a target="_blank" href="https://welcome.u-picardie.fr/home/">Université de Picardie Jules Verne</a> in France.</p> 
+            </div>
+        </section>
+        <section id="about">
+            <h1 class="title" id="titleAbout">Who am I ?</h1>
+            <div class="content">
+                <img src="image/profil/photo.png">
+                <div class="text">
+                    Hi ! My name is Antonin Carpentier and I am 21 years old. I am interested in many fields particularly <span>computer science, mathematics, and physic</span>, that I try to mix in my projects (that you can see in <a href="#titleProject">My projects</a>). Curious and motivated, I love learning and experiencing new things. I have some topics that I want to explore in the future, such as <span>graph theory and artificial intelligence</span> (especially neural networks).
+                    <br><br>
+                    I joined the <a target="_blank" href="https://www.utc.fr/en/">Université de Technologie de Compiègne</a> (UTC) located in France, in 2019. However, for some reason, I preferred to study at the <a target="_blank" href="https://welcome.u-picardie.fr/home/">Université de Picardie Jules Verne</a> (UPJV) in Amiens. This license gave me a certain academic education (that you can see in <a href="#titleSkill">My Skills</a>).
+                    <br><br>
+                    Thereafter, I wish to pursue in Master (or Magister), in order to consolidate the bases acquired and to specialize in a field that I like. Besides, I would like to do a thesis, then pass a competition with the goal to <span>become a lecturer-researcher</span>.
+                </div>
+            </div>
+        </section>
+        <section id="project">
+            <div class="polygon"></div>
+            <h1 class="title" id="titleProject">My projects</h1>
+            <div class="content">
+                <div class="projetItem">
+                    <img src="image/projet/sokoscape.png">
+                    <div class="projetText">
+                        <p class="titleProject">SokoScape</p>
+                        <p class="descProject">Small labyrinth game in 2D. In this game, we can find some features such as several lives, a ranking system, glide and attack animations, interactions with the character, timer, and sound effects.</p>
+                        <div class="moreInfoProject">
+                            <p class="language">C - SDL2 - school project</p>
+                            <p class="year">2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projetItem">
+                    <div class="projetText">
+                        <p class="titleProject">Big Integers</p>
+                        <p class="descProject">Duo project where the aim is to create large integers (which cannot be displayed) thanks to lists. We needed to compare large integers, create an AVL tree and hash tables then compare search times (between the two structures).</p>
+                        <div class="moreInfoProject">
+                            <p class="language">C - school project</p>
+                            <p class="year">2021</p>
+                        </div>
+                    </div>
+                    <img src="image/projet/bigInt.png">
+                </div>
+
+                <div class="projetItem">
+                    <div class="projetText">
+                        <p class="titleProject">My own website</p>
+                        <p class="descProject">Creation of this website, in order to deepen my knowledge. In this project, I tried to make a responsive website (which was my first time) but also be aware of the user interface. Besides, this website gathers the projects and skills that I wanted to show.</p>
+                        <div class="moreInfoProject">
+                            <p class="language">HTML - CSS - JS - personnal project</p>
+                            <p class="year">2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <div class="polygon"></div>
+            <h1 class="title" id="titleSkill">My skills</h1>
+            <div class="content">
+                <div class="skillsPanel">
+                    <div class="language">
+                        <h2>Languages</h2>
+                        <div class="contentLanguage">
+                            <div class="itemLanguage">
+                                <img src="image/competence/html_logo.png">
+                                <p>HTML</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/css_logo.png">
+                                <p>CSS</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/js_logo.png">
+                                <p>JS</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/sql_logo.png">
+                                <p>SQL</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/C_Logo.png">
+                                <p>C</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/java_logo.png">
+                                <p>Java</p>
+                            </div>
+
+                            <div class="itemLanguage">
+                                <img src="image/competence/unix_logo.png">
+                                <p>UNIX</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="concept">
+                        <h2>Concepts</h2>
+                        <ul>
+                            <li>Programmation Bases</li>
+                            <ul>
+                                <li>Recursivity</li>
+                            </ul>
+                            <li>Formal logic</li>
+                            <li>Computer's architecture</li>
+                            <ul>
+                                <li>Binary operations</li>
+                                <li>Logic gates</li>
+                                <li>Truth tables</li>
+                                <li>Karnaugh map</li>
+                                <li>Gray code</li>
+                                <li>Assembly</li>
+                            </ul>
+                            <li>Data structures</li>
+                            <ul>
+                                <li>List</li>
+                                <li>Stack</li>
+                                <li>Queue</li>
+                                <li>Tree</li>
+                                <li>Hash Table</li>
+                            </ul>
+                            <li>Notions in graph theory</li>
+                            <ul>
+                                <li>Graph traversal</li>
+                                <li>Minimum spanning tree</li>
+                                <li>Shortest path problem</li>
+                                <li>Maximum flow problem</li>
+                            </ul>
+                            <li>Concept in algorithm's complexity</li>
+                            <li>Sort and research algorithms</li>
+                            <li>Operating system</li>
+                            <ul>
+                                <li>OS bases</li>
+                                <li>Bash script</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="polygon"></div>
+            <h1 class="title" id="titleContact">How to contact me</h1>
+            <div class="content">
+                <div class="link">
+                    <a target="_blank" href="https://twitter.com/Fame_Doze"><img src="image/link/twitter_logo.png.png"> @Fame_Doze</a>
+                    <a target="_blank" href="https://discord.com/"><img src="image/link/discord_logo.png"> Antonin#7752</a>
+                    <a target="_blank" href="https://github.com/FameDoze2point0"><img src="image/link/git_logo.png" > FameDoze2point0</a>
+                </div>
+
+                <form action="mailto:carpentier.antonin.1@gmail.com" method="post" enctype="text/plain">
+                    <div class="topForm">
+                        <div class="name">
+                            <p>Name :</p>
+                            <input type="text" name="name" required></div>
+                        <div class="email">
+                            <p>E-mail :</p>
+                            <input type="email" name="mail" required>
+                        </div>
+                    </div>
+                    
+                    <div class="bottomForm">
+                        <div class="subject">
+                            <p>Subject :</p>
+                            <input type="text" name="subject" required>
+                        </div>
+                        <div class="emailContent">
+                            <textarea name="content" rows="15"></textarea>
+                        </div>
+                        <div class="buttons">
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+
+    <script type="text/javascript" src="particules/particles.js"></script>
+    <script type="text/javascript" src="particules/app.js"></script>
+    <script type="text/javascript" src="particules/particles.min.js"></script>
+
+    <script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>
