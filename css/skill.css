@@ -22,7 +22,7 @@ body section#skill div.content{
     justify-content: center;
 }
 body section#skill div.content div.skillsPanel{
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     padding: 15px;
