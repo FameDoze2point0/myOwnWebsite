@@ -60,7 +60,6 @@ body section#skill div.content div.skillsPanel div.language div.contentLanguage 
 }
 body section#skill div.content div.skillsPanel div.language div.contentLanguage div.itemLanguage img{
     height: 75px;
-    width: 100%;
     transition: transform 0.2s ease-out;
 }
 body section#skill div.content div.skillsPanel div.language div.contentLanguage div.itemLanguage img:hover{
